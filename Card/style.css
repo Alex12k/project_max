@@ -12,9 +12,11 @@
 .card{
 	max-width: 560px;
 
-	min-height: 301px; /* Me */
+	min-height: 300px; /* А если мало текста, какой будет карточка*/
 
-	margin: 0 auto;  /* ???? */
+	margin: 0 auto;  /* Будет мешать в перспективе */
+	margin: 15px;
+
 	font-family: 'PFSquareSansPro-Light';
 	background: url(img-bg.png);
 	background-color: #5e9dffb8;

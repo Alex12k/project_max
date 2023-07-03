@@ -21,7 +21,7 @@
 	padding-right: 14px;
 	display: grid;
 	grid-gap: 8px;
-	/* grid-template-columns: repeat(4, 290px); */
+	grid-template-columns: repeat(4, 290px); /* Эта строчка мешает карточкам изменять свой width и ломает адаптивность */
 	grid-template-rows: repeat(4, 165px);
 	grid-template-areas: 
 		"card_1 card_1 card_2 card_3"
